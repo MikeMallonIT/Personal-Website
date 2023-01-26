@@ -6,23 +6,6 @@
 
 /* ================================================================== */
 
-
-/* screenwidth less than 1024px
---------------------------------------------------------------------- */
-@media only screen and (max-width: 1024px) {
-
-    /* header styles
-   ------------------------------------------------------------------ */
-   header .banner-text h1 {
-      font: 80px/1.1em 'opensans-bold', sans-serif;
-      font-style: italic;
-      padding-left: 10%;
-      letter-spacing: -1px;
-      margin: 0 auto 12px auto;
-   }
-
-}
-
 /* screenwidth less than 900px
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
@@ -31,14 +14,25 @@
    ------------------------------------------------------------------ */
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
-      font: 78px/1.1em 'opensans-bold', sans-serif;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 75px;
       font-style: italic;
-      padding-left: 5%;
-      letter-spacing: -1px;      
+      text-align: left;
+      color: #fff;
+      font-weight: 600;
+      margin-left: 5%;
+      margin-bottom: 30px;    
    }
    header .banner-text h3 {
-      font: 17px/1.9em 'librebaskerville-regular', serif;
-      width: 80%;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+   
+      max-width:600px;
+      color:#fff;
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
    }
    header .banner-text hr {
       width: 65%;
@@ -195,11 +189,7 @@
       padding-bottom: 12px;
       padding-top: 6px;
    }
-   header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; font-style: italic;       padding-left: 3%;}
-   header .banner-text h3 {
-      font: 16px/1.9em 'librebaskerville-regular', serif;
-      width: 85%;
-   }
+   
    header .banner-text hr {
       width: 80%;
       margin: 18px auto;
@@ -353,16 +343,29 @@
 
    /* header styles
    -------------------------------------------------------------------- */
-   header .banner { padding-top: 24px; }
+   header .banner { padding-top: 14px; }
+   header .banner-text {
+      margin-top: -70%;
+   }
    header .banner-text h1 {
-      font: 40px/1.1em 'opensans-bold', sans-serif;      
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 55px;
       font-style: italic;
-      padding-left: 0%;
-      margin: 0 auto 10px auto;
+      text-align: left;
+      color: #fff;
+      font-weight: 600;
+      margin-left: 0;
+      margin-bottom: 15px;
    }
    header .banner-text h3 {
-      font: 14px/1.9em 'librebaskerville-regular', sans-serif;
-      width: 90%;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 16px;
+   
+      max-width:325px;
+      color:#fff;
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
    }
   
    /* header social links */

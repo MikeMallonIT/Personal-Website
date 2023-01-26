@@ -8,12 +8,18 @@ export default class About extends Component {
             <div className="three columns">
                <img className="profile-pic"  src="images/profilePic.jpg" alt="studMuffin" />
             </div>
-            <div className="nine columns main-col">
+            <div id="yCenter" className="nine columns main-col">
                <h2>About Me</h2>
                <p>
                {
                  resumeData.aboutMe
                }
+               </p>
+               <br></br>
+               <p>
+                {
+                  resumeData.aboutMeLineTwo
+                }
                </p>
             </div>
          </div>

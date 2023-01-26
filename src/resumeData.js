@@ -22,7 +22,8 @@ let resumeData = {
           "className":"fa fa-instagram"
         }
       ],
-    "aboutMe":"I spend my free time with friends and family in the garage working on cars, at the dog park, and on the golf course. At work, I find the most enjoyable days are the ones when I help solve a problem or meet someone new. My long-term career focus is on IT leadership and contract management.",
+  "aboutMe":"Hello and thanks for stopping by! This website serves as my professional portfolio and was written in JavaScript using Node, React, and JQuery. You can check out my other software projects on GitHub!",
+  "aboutMeLineTwo":"I am a Chicagoland native and relocated to Dallas just before the pandemic. I like to spend my free time with friends and family in the garage working on cars, in front of the TV watching sports, and on the golf course. At work, my most enjoyable days are the ones where I can help solve a problem or meet new people. My long-term career focus is on IT leadership and contract management.",
     "address":"Dallas, TX",
     "website":"mike@mallonit.com",
     "resume":"https://drive.google.com/file/d/1qprEEDKnVcKPbPyCkQJWMmPMg8JAkL3x/view?usp=sharing",
@@ -108,7 +109,27 @@ let resumeData = {
         "name":"Simba",
         "description":"My Son",
         "imgUrl":"images/portfolio/dog.jpeg"
-      }
+      },
+      {
+        "name":"Audi A3",
+        "description":"Compact Performance",
+        "imgUrl":"images/portfolio/a3.jpeg"
+      },
+      {
+        "name":"135i Photo Shoot",
+        "description":"Shot with Apple ProRAW",  
+        "imgUrl":"images/portfolio/bimmer2.jpeg"
+      },
+      {
+        "name":"Winter Audi",
+        "description":"Quattro AWD, activated",  
+        "imgUrl":"images/portfolio/snow.jpeg"
+      },
+      {
+        "name":"Doggos",
+        "description":"4x2 Placeholder",  
+        "imgUrl":"images/portfolio/placeholder.jpeg"
+      },
     ],
     "testimonials":[
       {

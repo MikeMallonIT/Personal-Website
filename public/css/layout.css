@@ -221,29 +221,43 @@ ul#nav li.current a { color: #C0A33C; }
 
 #about {
    background: #2B2B2B;
-   padding-top: 100px;
-   padding-bottom: 75px;
+   padding-top: 60px;
+   padding-bottom: 60px;
    overflow: hidden;
 }
 
 #about a, #about a:visited  { color: #fff; }
 #about a:hover, #about a:focus { color: #C0A33C; }
 
+#about #yCenter {
+   margin-top: 25px;
+}
+
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
    margin-bottom: 12px;
+
+   font-family: 'Roboto Condensed', sans-serif;
+   font-weight: bold;
+   font-size: 24px;
+   text-align: left;
+   color: #fff;
+   margin-bottom: 10px;
 }
 #about p {
    line-height: 30px;
+   font-family: 'Roboto Condensed', sans-serif;
+   font-size: 20px;
    color: #7A7A7A;
+   font-weight: 400;
+   margin-bottom: 0;
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 150px;
+   height: 150px;
    border-radius: 100%;
-   margin-top: 5%;
+   margin-top: 50%;
+   margin-bottom: 50%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -461,7 +475,7 @@ ul#nav li.current a { color: #C0A33C; }
 #portfolio {
    background: #ebeeee;
    padding-top: 90px;
-   padding-bottom: 60px;
+   padding-bottom: 120px;
 }
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;

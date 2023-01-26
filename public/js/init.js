@@ -56,7 +56,7 @@
 			active_link.parent().addClass("current");
 
 		},
-		offset: '25%'
+		offset: '10%'
 
 	});
 
@@ -88,7 +88,7 @@
 
 	   if ((y > h*.10) && (y < h) && ($(window).outerWidth() < 815 )){
             
-         if(y < 120){
+         if(y < 100){
             navName.fadeIn('fast');
          }
          else{
