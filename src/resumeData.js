@@ -1,5 +1,5 @@
 let resumeData = {
-    //"imagebaseurl":"http://localhost:3000/images/portfolio/",
+    "imagebaseurl":"https://mm-personal-website.herokuapp.com/images/",
     "hello": "Hello!",
     "name": "Mike Mallon",
     "role": "I am an Agile Product Owner, Full Stack Web Developer and seasoned Technologist with a passion for Servant Leadership, fast cars and golf.",
@@ -25,6 +25,7 @@ let resumeData = {
     "aboutMe":"I spend my free time with friends and family in the garage working on cars, at the dog park, and on the golf course. At work, I find the most enjoyable days are the ones when I help solve a problem or meet someone new. My long-term career focus is on IT leadership and contract management.",
     "address":"Dallas, TX",
     "website":"mike@mallonit.com",
+    "resume":"https://drive.google.com/file/d/1qprEEDKnVcKPbPyCkQJWMmPMg8JAkL3x/view?usp=sharing",
     "education":[
       {
         "UniversityName":"Illinois State University",
@@ -39,7 +40,7 @@ let resumeData = {
         "MonthOfPassing":"February",
         "YearOfPassing":"2022",
         "Achievements":""
-      }
+      },
     ],
     "work":[
       {
