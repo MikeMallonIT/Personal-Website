@@ -26,6 +26,7 @@ let resumeData = {
     "address":"Dallas, TX",
     "website":"mike@mallonit.com",
     "resume":"https://drive.google.com/file/d/1qprEEDKnVcKPbPyCkQJWMmPMg8JAkL3x/view?usp=sharing",
+    
     "education":[
       {
         "UniversityName":"Illinois State University",

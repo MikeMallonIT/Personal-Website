@@ -13,7 +13,7 @@ export default  class Resume extends Component {
               {
                 resumeData.resume && resumeData.education && resumeData.education.map((item)=>{
                   return(
-                    <div className="row item">
+                    <div key={item.UniversityName} className="row item">
                        <div className="twelve columns">
                           <h3>{item.UniversityName}</h3>
                           <p className="info">
@@ -30,7 +30,8 @@ export default  class Resume extends Component {
               <div className="pdf">
                 <a target="blank" href={`${resumeData.resume}`}>PDF Version</a>
               </div>
-            </div>  
+            </div>
+                      
          </div>
         
         
@@ -43,7 +44,7 @@ export default  class Resume extends Component {
               {
                 resumeData.work && resumeData.work.map((item) => {
                   return(
-                    <div className="row item">
+                    <div key={item.CompanyName} className="row item">
                        <div className="twelve columns">
                           <h3>{item.CompanyName}</h3>
                           <p className="info">
@@ -77,7 +78,7 @@ export default  class Resume extends Component {
               {
                 resumeData.work && resumeData.certs.map((item) => {
                   return(
-                    <div className="row item">
+                    <div key={item.CompanyName} className="row item">
                        <div className="twelve columns">
                           <h3>{item.CompanyName}</h3>
                           <p className="info">
@@ -107,7 +108,7 @@ export default  class Resume extends Component {
                 {
                   resumeData.skills && resumeData.skills.map((item) => {
                     return(
-                      <li>
+                      <li key={item.skillname}>
                       <span className={`bar-expand ${item.skillname.toLowerCase().replace(/\s/g, "")}`}>
                       </span><em>{item.skillname}</em>
                       </li>
