@@ -19,7 +19,8 @@
   z-index: 1043;
   position: fixed;
   outline: none !important;
-  -webkit-backface-visibility: hidden; }
+  -webkit-backface-visibility: hidden; 
+}
 
 .mfp-container {
   text-align: center;
@@ -79,8 +80,9 @@
 .mfp-loading.mfp-figure {
   display: none; }
 
-.mfp-hide {
-  display: none !important; }
+  .mfp-hide {
+    color: white;  
+  }
 
 .mfp-preloader {
   color: #cccccc;
@@ -142,7 +144,7 @@ button::-moz-focus-inner {
     top: 1px; }
 
 .mfp-close-btn-in .mfp-close {
-  color: #333333; }
+  color: #ffff; }
 
 .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
   color: white;

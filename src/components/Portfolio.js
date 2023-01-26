@@ -13,7 +13,8 @@ export default class Portfolio extends Component {
               return(
                 <div key={item.name} className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href={`#modal${item.name}`}>
+                    <a href={`#modal-${item.name.toLowerCase().replace(/\s/g, "")}`}>
+                    <div id={`modal-${item.name.toLowerCase().replace(/\s/g, "")}`}>
                       <img src={`${item.imgUrl}`} className="item-img" alt='img'/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
@@ -21,6 +22,7 @@ export default class Portfolio extends Component {
                           <p>{item.description}</p>
                         </div>
                       </div>
+                    </div>
                     </a>
                   </div>
                 </div>

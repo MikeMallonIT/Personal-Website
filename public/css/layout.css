@@ -392,6 +392,10 @@ ul#nav li.current a { color: #C0A33C; }
    border-radius: 3px 0 0 3px;
 }
 
+.basic span{
+   width: 0%;
+}
+
 .agileproductmanagement {
    width: 90%;
    -moz-animation: agile 2s ease;
