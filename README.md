@@ -1,5 +1,5 @@
 # Personal Website - React Portfolio
-### ![Logo](https://raw.githubusercontent.com/MikeMallonIT/Personal-Website/main/public/images/logo.png) Mike Mallon
+### ![Logo](https://raw.githubusercontent.com/MikeMallonIT/Personal-Website/main/public/images/newLogo.png) Mike Mallon
 
 ![License Badge](https://img.shields.io/badge/license-MIT-green.svg)
 
