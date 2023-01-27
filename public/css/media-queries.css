@@ -345,7 +345,7 @@
    -------------------------------------------------------------------- */
    header .banner { padding-top: 14px; }
    header .banner-text {
-      margin-top: -70%;
+      margin-top: -50%;
    }
    header .banner-text h1 {
       font-family: 'Roboto Condensed', sans-serif;
