@@ -372,6 +372,16 @@
    header .social { font-size: 20px;}
    header .social li { margin: 0 6px; }
 
+   #resume .pdf{
+   
+      position:absolute;
+      right: 3%;
+   
+      
+      font: 12px 'opensans-bold', sans-serif;
+      text-decoration: none;
+    }
+
    /* footer
    ------------------------------------------------------------------------ */
 
