@@ -1,10 +1,10 @@
 # Personal Website - React Portfolio
-### ![Logo](https://www.mikemallon.com/images/logo.png) Mike Mallon
+### ![Logo](https://raw.githubusercontent.com/MikeMallonIT/Personal-Website/main/public/images/logo.png) Mike Mallon
 
 ![License Badge](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## Preview
-![Preview](https://www.mikemallon.com/images/mikemallondotcompreview.png)
+![Preview](https://raw.githubusercontent.com/MikeMallonIT/Personal-Website/main/public/images/mikeMallonDotComPreview.png)
 
 ## How to use
 1. Clone/Download the repo.
@@ -15,7 +15,7 @@
 
 ## Credits
 
-- [npm](https://www.npmjs.com/package/react-router-dom)
+- [Npm](https://www.npmjs.com/package/react-router-dom)
 - [React](https://reactjs.org/docs/code-splitting.html)
 - [JQuery](https://jquery.com/)
 - [Stack Overflow](https://stackoverflow.com/questions/66839427/mongoose-middleware-schema-presave)
