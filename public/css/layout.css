@@ -392,60 +392,35 @@ ul#nav li.current a { color: #C0A33C; }
    border-radius: 3px 0 0 3px;
 }
 
-.basic span{
+.basic {
    width: 0%;
 }
 
+
+
 .agileproductmanagement {
    width: 90%;
-   -moz-animation: agile 2s ease;
    -webkit-animation: agile 2s ease;
 }
 
 .ciscouc {
    width: 65%;
-   -moz-animation: uc 2s ease;
    -webkit-animation: uc 2s ease;
 }
 
 .fullstackwebdevelopment {
   	width: 75%;
-  	-moz-animation: fullstack 2s ease;
   	-webkit-animation: fullstack 2s ease;
 }
 
 .photoshopandillustrator {
   	width: 50%;
-  	-moz-animation: adobe 2s ease;
   	-webkit-animation: adobe 2s ease;
 }
 
 .automechanics {
    width: 82%;
-   -moz-animation: mechanic 2s ease;
    -webkit-animation: mechanic 2s ease;
-}
-
-@-moz-keyframes fullstack {
-  0%   { width: 0px;  }
-  100% { width: 75%;  }
-}
-@-moz-keyframes uc {
-  0%   { width: 0px;  }
-  100% { width: 65%;  }
-}
-
-@-moz-keyframes adobe {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes agile {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes mechanic {
-  0%   { width: 0px;  }
-  100% { width: 82%;  }
 }
 
 @-webkit-keyframes agile {
@@ -455,7 +430,7 @@ ul#nav li.current a { color: #C0A33C; }
 
 @-webkit-keyframes fullstack {
   0%   { width: 0px;  }
-  100% { width: 75%;  }
+100% { width: 75%;  }
 }
 @-webkit-keyframes uc {
   0%   { width: 0px;  }

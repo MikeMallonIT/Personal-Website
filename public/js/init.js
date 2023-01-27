@@ -61,31 +61,8 @@
 	});
 
 
-   var theBar = $("#basic");
 
-   sections.waypoint({
 
-      handler: function(event, direction) {
-
-		   var active_section;
-
-			active_section = $(this);
-         
-         if (direction === "up") active_section = active_section.prev();
-
-         if(active_section.attr("id") === "resume"){
-            console.log("Resume Section")
-            theBar.removeClass("basic");
-
-         }
-         else{
-            console.log("Not resume Section")
-            
-         };
-
-      },
-
-   });
 
 
 /*----------------------------------------------------*/
