@@ -21,6 +21,12 @@ export default class About extends Component {
                   resumeData.aboutMeLineTwo
                 }
                </p>
+               <br></br>
+               <p>
+                {
+                  resumeData.aboutMeLineThree
+                }
+               </p>
             </div>
          </div>
       </section>

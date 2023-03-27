@@ -23,7 +23,12 @@ export default class ContactUs extends Component {
                   <span>
                   {resumeData.address}
                   </span>
+                  <br></br>
+                  <a target="blank" href={`${resumeData.resume}`}>Resume</a>
                 </p>
+                
+
+            
                 </h4>
               </div>
             </aside>

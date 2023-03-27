@@ -22,11 +22,12 @@ let resumeData = {
           "className":"fa fa-instagram"
         }
       ],
-  "aboutMe":"Hello and thanks for stopping by! This website serves as my professional portfolio and was written in JavaScript using Node, React, and JQuery. You can check out my other software projects on GitHub!",
-  "aboutMeLineTwo":"I am a Chicagoland native and relocated to Dallas just before the pandemic. I like to spend my free time with friends and family in the garage working on cars, in front of the TV watching sports, and on the golf course. At work, my most enjoyable days are the ones where I can help solve a problem or meet new people. My long-term career focus is on IT leadership and contract management.",
-    "address":"Dallas, TX",
+  "aboutMe":"I am a Chicagoland native that relocated to DFW in 2019. While studding IT infrastructure concepts in college, I built upon them on the job site. Telephony became my area of expertise post-graduation while administrating one of largest Cisco UC PBX environments in the country. My leadership skills were fine-tuned and remain proficient when I was appointed to be the team's Product Owner.",
+  "aboutMeLineTwo":"As demand for infrastructure automation increased, so did my desire to code. I completed the SMU Full Stack Boot Camp in 2022 and leverage the knowledge I gained while driving automation at work; and when build websites like this one. As Product Owner, I help guide my agile team but believe a strong leader should focus on empowering their teams and get their hands dirty whenever possible.",
+  "aboutMeLineThree":"I truly appreciate your time in stopping by and look forward to connecting!",
+    "address":"847.636.768 five",
     "website":"mike@mallonit.com",
-    "resume":"https://drive.google.com/file/d/1qprEEDKnVcKPbPyCkQJWMmPMg8JAkL3x/view?usp=sharing",
+    "resume":"images/MallonResume.pdf",
     
     "education":[
       {
@@ -34,40 +35,49 @@ let resumeData = {
         "specialization":"Computer Systems Technology",
         "MonthOfPassing":"May",
         "YearOfPassing":"2018",
-        "Achievements":""
+        "Minor":"Business Administration Minor",
+        "Achievements":"Cisco Networking | Physical, Virtual/ Cloud Servers | Microsoft AD | E-Commerce"
       },
       {
         "UniversityName":"Southern Methodist University",
         "specialization":"Full Stack Coding Bootcamp",
         "MonthOfPassing":"February",
         "YearOfPassing":"2022",
-        "Achievements":""
+        "Achievements":"MERN Stack | Git | Algorithms | Cloud Hosting | Agile Group Projects",
       },
     ],
     "work":[
       {
         "CompanyName":"State Farm",
         "specialization":"Product Owner",
-        "MonthOfLeaving":"June",
-        "YearOfLeaving":"2018",
-        "Achievements":"Cisco UC | Workflow Automation | Managed: SLA/ SLO, Labor Budgets and Work Intake",
+        "MonthOfLeaving":"April",
+        "YearOfLeaving":"2019",
+        "Role1":"Telephony: ",
+        "Role2":"Full Stack: ",
+        "Achievements": "Technical Lead | Manage: SLA/ SLO, Labor Budgets, Work Intake",
+        "Achievements1":"Agile PO | Backlog, Scrum, Retro | JS Developer | Kubernetes | CI/ CD",
 
-        "otherSpecialization":"Intern",
-        "otherMonthOfLeaving":"January",
-        "otherYearOfLeaving":"2016",
-        "otherAchievements":"IBM Tape Storage Management | Data Center Hands-on | Intern Speech Champion"
+        "otherSpecialization":"Infrastructure Analyst",
+        "otherMonthOfLeaving":"June",
+        "otherYearOfLeaving":"2018",
+        "otherAchievements":"Cisco UC | Automated Attendant | Bulk Provisioning | PBX + VOIP",
+
+        "otherSpecialization1":"Intern",
+        "otherMonthOfLeaving1":"January",
+        "otherYearOfLeaving1":"2016",
+        "otherAchievements1":"IBM Tape Storage Management | Data Center Hands-on | Intern Speech Champion"
       }
     ],
 
     "certs":[
       {
-        "CompanyName":"Amazon Web Services (AWS)",
+        "CompanyName":"Amazon Web Services",
         "specialization":"Certified Cloud Practitioner",
         "MonthOfLeaving":"February",
         "YearOfLeaving":"2021",
       },
       {
-        "CompanyName":"National Institute for Automotive Service Excellence (ASE)",
+        "CompanyName":"Automotive Service Excellence",
         "specialization":"Auto Maintenance and Light Repair G1",
         "MonthOfLeaving":"February",
         "YearOfLeaving":"2022",
@@ -126,9 +136,9 @@ let resumeData = {
         "imgUrl":"images/portfolio/snow.jpeg"
       },
       {
-        "name":"Doggos",
-        "description":"4x2 Placeholder",  
-        "imgUrl":"images/portfolio/placeholder.jpeg"
+        "name":"Play It Again Tunes",
+        "description":"Boot Camp Final Project",  
+        "imgUrl":"images/portfolio/playItAgain.jpg"
       },
     ],
     "testimonials":[

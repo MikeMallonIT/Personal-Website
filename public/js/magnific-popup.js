@@ -135,7 +135,7 @@
          * This function is triggered only once when $.fn.magnificPopup or $.magnificPopup is executed
          */
         init: function() {
-            var appVersion = navigator.appVersion;
+            var appVersion = navigator.userAgentData;
             mfp.isLowIE = mfp.isIE8 = document.all && !document.addEventListener;
             mfp.isAndroid = (/android/gi).test(appVersion);
             mfp.isIOS = (/iphone|ipad|ipod/gi).test(appVersion);
@@ -143,7 +143,7 @@
     
             // We disable fixed positioned lightbox on devices that don't handle it nicely.
             // If you know a better way of detecting this - let me know.
-            mfp.probablyMobile = (mfp.isAndroid || mfp.isIOS || /(Opera Mini)|Kindle|webOS|BlackBerry|(Opera Mobi)|(Windows Phone)|IEMobile/i.test(navigator.userAgent) );
+            mfp.probablyMobile = (mfp.isAndroid || mfp.isIOS || /(Opera Mini)|Kindle|webOS|BlackBerry|(Opera Mobi)|(Windows Phone)|IEMobile/i.test(navigator.userAgentData) );
             _document = $(document);
     
             mfp.popupsCache = {};
