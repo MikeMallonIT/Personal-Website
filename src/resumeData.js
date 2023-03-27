@@ -108,7 +108,7 @@ let resumeData = {
       {
         "name":"Audi SQ5",
         "description":"Blazing Fast Practicality",
-        "imgUrl":"images/portfolio/audi.jpeg"
+        "imgUrl":"images/portfolio/audi.jpg"
       },
       {
         "name":"BMW 135i",
