@@ -103,7 +103,7 @@ let resumeData = {
       {
         "name":"Acura TSX",
         "description":"My First",
-        "imgUrl":"images/portfolio/tsx.jpeg"
+        "imgUrl":"images/portfolio/tsx.jpg"
       },
       {
         "name":"Audi SQ5",
@@ -113,27 +113,27 @@ let resumeData = {
       {
         "name":"BMW 135i",
         "description":"The Ultimate Driving Machine",  
-        "imgUrl":"images/portfolio/bimmer.jpeg"
+        "imgUrl":"images/portfolio/bimmer.jpg"
       },
       {
         "name":"Simba",
         "description":"My Son",
-        "imgUrl":"images/portfolio/dog.jpeg"
+        "imgUrl":"images/portfolio/dog.jpg"
       },
       {
         "name":"Audi A3",
         "description":"Compact Performance",
-        "imgUrl":"images/portfolio/a3.jpeg"
+        "imgUrl":"images/portfolio/a3.jpg"
       },
       {
         "name":"135i Photo Shoot",
         "description":"Shot with Apple ProRAW",  
-        "imgUrl":"images/portfolio/bimmer2.jpeg"
+        "imgUrl":"images/portfolio/bimmer2.jpg"
       },
       {
         "name":"Winter Audi",
         "description":"Quattro AWD, activated",  
-        "imgUrl":"images/portfolio/snow.jpeg"
+        "imgUrl":"images/portfolio/snow.jpg"
       },
       {
         "name":"Play It Again Tunes",
