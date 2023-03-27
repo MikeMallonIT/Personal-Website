@@ -21,6 +21,7 @@ export default  class Resume extends Component {
                           <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
                           <p>
                           {item.Achievements}
+                          <br></br>{item.Minor}
                           </p>
                        </div>
                       </div>
@@ -28,7 +29,7 @@ export default  class Resume extends Component {
                 })
               }
               <div className="pdf">
-                <a target="blank" href={`${resumeData.resume}`}>PDF Version</a>
+                <a target="blank" href={`${resumeData.resume}`}>Resume PDF ⏎</a>
               </div>
             </div>
                       
@@ -50,9 +51,10 @@ export default  class Resume extends Component {
                           <p className="info">
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                          <p className="firstAchievements">
-                          {item.Achievements}
-                          </p>
+                          <p className="firstAchievementsPO">
+                          <b>{item.Role1}</b>{item.Achievements}</p>
+                          <p className="firstAchievements"><b>{item.Role2}</b>&nbsp;{item.Achievements1}</p>
+                          
                           
                           
                           <p className="info">
@@ -60,6 +62,13 @@ export default  class Resume extends Component {
                           <span>&bull;</span> <em className="date">{item.otherMonthOfLeaving} {item.otherYearOfLeaving}</em></p>
                           <p>
                           {item.otherAchievements}
+                          </p>
+
+                          <p className="info">
+                          {item.otherSpecialization1}
+                          <span>&bull;</span> <em className="date">{item.otherMonthOfLeaving1} {item.otherYearOfLeaving1}</em></p>
+                          <p>
+                          {item.otherAchievements1}
                           </p>
                        </div>
                     </div>
