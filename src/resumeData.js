@@ -95,30 +95,38 @@ let resumeData = {
         "skillname":"Full Stack Web Development"
       },
       {
-        "skillname":"Auto Mechanics"
+        "skillname":"Automotive Technology"
       }
 
     ],
     "portfolio":[
+ 
+      {
+        "name":"Coding Quiz",
+        "description":"Do you even code?",  
+        "imgUrl":"images/portfolio/quiz.jpg"
+      },
+      {
+        "name":"Weather Dashboard",
+        "description":"I'm on to you, Weatherman!",
+        "imgUrl":"images/portfolio/weather.jpg"
+      },
+
+
+      {
+        "name":"Team Honda",
+        "description":"JDM PHP written by me",  
+        "imgUrl":"images/portfolio/teamHonda.jpg"
+      },
+      {
+        "name":"Play It Again Tunes",
+        "description":"Boot Camp Final Project",  
+        "imgUrl":"images/portfolio/playItAgain.jpg"
+      },
       {
         "name":"Acura TSX",
         "description":"My First",
         "imgUrl":"images/portfolio/tsx.jpg"
-      },
-      {
-        "name":"Audi SQ5",
-        "description":"Blazing Fast Practicality",
-        "imgUrl":"images/portfolio/audi.jpg"
-      },
-      {
-        "name":"BMW 135i",
-        "description":"The Ultimate Driving Machine",  
-        "imgUrl":"images/portfolio/bimmer.jpg"
-      },
-      {
-        "name":"Simba",
-        "description":"My Son",
-        "imgUrl":"images/portfolio/dog.jpg"
       },
       {
         "name":"Audi A3",
@@ -131,15 +139,10 @@ let resumeData = {
         "imgUrl":"images/portfolio/bimmer2.jpg"
       },
       {
-        "name":"Winter Audi",
-        "description":"Quattro AWD, activated",  
-        "imgUrl":"images/portfolio/snow.jpg"
-      },
-      {
-        "name":"Play It Again Tunes",
-        "description":"Boot Camp Final Project",  
-        "imgUrl":"images/portfolio/playItAgain.jpg"
-      },
+        "name":"Audi SQ5",
+        "description":"Blazing Fast Practicality",
+        "imgUrl":"images/portfolio/audi.jpg"
+      }
     ],
     "testimonials":[
       {
