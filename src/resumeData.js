@@ -27,7 +27,7 @@ let resumeData = {
   "aboutMeLineThree":"I truly appreciate you stopping by and look forward to connecting!",
     "address":"847.636.768 five",
     "website":"mike@mallonit.com",
-    "resume":"https://drive.google.com/file/d/1gicrCH9shPzNEE6y3Pfb5ms0tin004nR/view?usp=sharing",
+    "resume":"https://drive.google.com/file/d/1f0Nw-IdXEkH0CPlLc114yrXRYLhSwSgA/view?usp=sharing",
     
     "education":[
       {
