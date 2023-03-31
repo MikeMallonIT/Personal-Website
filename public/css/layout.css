@@ -250,8 +250,8 @@ ul#nav li.current a { color: #C0A33C; }
 }
 #about .profile-pic {
    position: relative;
-   width: 150px;
-   height: 150px;
+   width: 175px;
+   height: 175px;
    border-radius: 100%;
    margin-top: 50%;
    margin-bottom: 50%;
