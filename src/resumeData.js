@@ -2,7 +2,7 @@ let resumeData = {
     "imagebaseurl":"https://mm-personal-website.herokuapp.com/images/",
     "hello": "Hello!",
     "name": "Mike Mallon",
-    "role": "I am an Agile Product Owner, Full Stack Web Developer and seasoned Technologist with a passion for Servant Leadership, fast cars and golf.",
+    "role": "I am an Agile Product Owner, Full Stack Web Developer, and seasoned Technologist with a passion for servant leadership, fast cars, and golf.",
     "roleDescription":"",
     "linkedinId":" michael-mallon-it-guy",
     "socialLinks":[
@@ -22,9 +22,9 @@ let resumeData = {
           "className":"fa fa-instagram"
         }
       ],
-  "aboutMe":"I am a Chicagoland native that relocated to DFW in 2019. While studding IT infrastructure concepts in college, I built upon them on the job site. Telephony became my area of expertise post-graduation while administrating one of largest Cisco UC PBX environments in the country. My leadership skills were fine-tuned and remain proficient when I was appointed to be the team's Product Owner.",
-  "aboutMeLineTwo":"As demand for infrastructure automation increased, so did my desire to code. I completed the SMU Full Stack Boot Camp in 2022 and leverage the knowledge I gained while driving automation at work; and when build websites like this one. As Product Owner, I help guide my agile team but believe a strong leader should focus on empowering their teams and get their hands dirty whenever possible.",
-  "aboutMeLineThree":"I truly appreciate your time in stopping by and look forward to connecting!",
+  "aboutMe":"I am a Chicagoland native that relocated to DFW in 2019. While studying IT infrastructure concepts in college, I built upon them on the job site. Telephony became my area of expertise post-graduation while administering one of the largest Cisco UC PBX environments in the country. My leadership skills were fine-tuned and remain proficient, having been appointed to be the team's product owner.",
+  "aboutMeLineTwo":"As demand for infrastructure automation increased, so did my desire to code. I completed the SMU Full Stack Boot Camp in 2022 and leverage the knowledge I gained while driving automation at work and when building websites like this one. As a product owner, I help guide my agile team, but I believe a strong leader should focus on empowering their teams and get their hands dirty whenever possible.",
+  "aboutMeLineThree":"I truly appreciate you stopping by and look forward to connecting!",
     "address":"847.636.768 five",
     "website":"mike@mallonit.com",
     "resume":"https://drive.google.com/file/d/1qprEEDKnVcKPbPyCkQJWMmPMg8JAkL3x/view?usp=sharing",
@@ -111,8 +111,6 @@ let resumeData = {
         "description":"I'm on to you, Weatherman!",
         "imgUrl":"images/portfolio/weather.jpg"
       },
-
-
       {
         "name":"Team Honda",
         "description":"JDM PHP written by me",  
