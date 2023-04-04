@@ -544,6 +544,82 @@ ul#nav li.current a { color: #C0A33C; }
    margin-bottom: 0;
 }
 
+
+
+/*  style with no popout */
+.portfolio-item .item-link {
+   background: #fff;
+   overflow: hidden;
+   position: relative;
+
+   -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.portfolio-item .item-link a {
+   display: block;
+   cursor: pointer;
+}
+
+/* overlay */
+.portfolio-item .item-link .overlay {
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+
+   -webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+
+   background: url(../images/overlay-bg.png) repeat;
+}
+.portfolio-item .item-link .link-icon {
+   display: block;
+   color: #fff;
+   height: 30px;
+   width: 30px;
+   font-size: 18px;
+   line-height: 30px;
+   text-align: center;
+
+   opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+
+   -webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-left: -15px;
+   margin-top: -15px;
+}
+.portfolio-item .item-link img {
+   vertical-align: bottom;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* on hover */
 .portfolio-item:hover .overlay {
 	opacity: 1;

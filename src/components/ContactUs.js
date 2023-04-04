@@ -18,13 +18,7 @@ export default class ContactUs extends Component {
                 <p className="address">
                   <span>{resumeData.name}</span>
                   <br></br>
-                  <span>{resumeData.website}</span> 
-                  <br></br>
-                  <span>
-                  {resumeData.address}
-                  </span>
-                  <br></br>
-                  <a target="blank" href={`${resumeData.resume}`}>Resume</a>
+                  <span><a href = {`mailto: ${resumeData.website}`}>{resumeData.website}</a></span> 
                 </p>
                 
 
