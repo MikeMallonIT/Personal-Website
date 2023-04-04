@@ -15,11 +15,13 @@ export default class Portfolio extends Component {
                   <div className="item-wrap">
                     <a href={`#modal-${item.name.toLowerCase().replace(/\s/g, "")}`}>
                     <div className="popUp" id={`modal-${item.name.toLowerCase().replace(/\s/g, "")}`}>
-                      <img src={`${item.imgUrl}`} className="item-img" alt='img'/>
+                      <img src={`${item.imgUrl}`} className="item-img" alt='img' />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
+             
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
+
                         </div>
                       </div>
                     </div>

@@ -26,7 +26,7 @@ let resumeData = {
   "aboutMeLineTwo":"As demand for infrastructure automation increased, so did my desire to code. I completed the SMU Full Stack Boot Camp in 2022 and leverage the knowledge I gained while driving automation at work and when building websites like this one. As a product owner, I help guide my agile team, but I believe a strong leader should focus on empowering their teams and get their hands dirty whenever possible.",
   "aboutMeLineThree":"I truly appreciate you stopping by and look forward to connecting!",
     "address":"847.636.768 five",
-    "website":"mike@mallonit.com",
+    "website":"hello@mikemallon.com",
     "resume":"https://drive.google.com/file/d/1f0Nw-IdXEkH0CPlLc114yrXRYLhSwSgA/view?usp=sharing",
     
     "education":[
@@ -104,22 +104,31 @@ let resumeData = {
       {
         "name":"Coding Quiz",
         "description":"Do you even code?",  
-        "imgUrl":"images/portfolio/quiz.jpg"
+        "imgUrl":"images/portfolio/quiz.jpg",
+        "gitUrl":"https://github.com/MikeMallonIT/HW4-CodeQuiz",
+        "ampUrl":"https://main.d2kyqxd7lr4f7h.amplifyapp.com/"
       },
       {
         "name":"Weather Dashboard",
         "description":"I'm on to you, Weatherman!",
-        "imgUrl":"images/portfolio/weather.jpg"
+        "imgUrl":"images/portfolio/weather.jpg",
+        "gitUrl":"",
+        "ampUrl":"https://main.d36v7ke5sieg8n.amplifyapp.com/"
+        
       },
       {
         "name":"Team Honda",
         "description":"JDM PHP written by me",  
-        "imgUrl":"images/portfolio/teamHonda.jpg"
+        "imgUrl":"images/portfolio/teamHonda.jpg",
+        "gitUrl":"",
+        "ampUrl":"https://main.dmc7jgsrnh83d.amplifyapp.com/"
       },
       {
         "name":"Play It Again Tunes",
         "description":"Boot Camp Final Project",  
-        "imgUrl":"images/portfolio/playItAgain.jpg"
+        "imgUrl":"images/portfolio/playItAgain.jpg",
+        "gitUrl":"",
+        "ampUrl":""
       },
       {
         "name":"Acura TSX",
