@@ -7,17 +7,17 @@ let resumeData = {
     "linkedinId":" michael-mallon-it-guy",
     "socialLinks":[
         {
-          "name":"linkedin",
+          "name":"Linkedin",
           "url":"https://www.linkedin.com/in/michael-mallon-it-guy/",
           "className":"fa fa-linkedin"
         },
         {
-          "name":"github",
+          "name":"Github",
           "url":"https://github.com/MikeMallonIT/",
           "className":"fa fa-github"
         },
         {
-          "name":"instagram",
+          "name":"Instagram",
           "url":"http://instagram.com/themikemallon",
           "className":"fa fa-instagram"
         }

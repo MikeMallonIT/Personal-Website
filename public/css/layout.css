@@ -906,7 +906,7 @@ call-to-action .button {
 
 #contact {
    background: #191919;
-   padding-top: 96px;
+   padding-top: 128px;
    padding-bottom: 128px;
    color: #636363;
 }
@@ -914,6 +914,15 @@ call-to-action .button {
 
 #contact a, #contact a:visited  { color: #C0A33C; }
 #contact a:hover, #contact a:focus { color: #EBEEEE; }
+
+.contactName {
+   font-size: 18px;
+   color: #EBEEEE;
+}
+
+
+
+
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -925,7 +934,6 @@ call-to-action .button {
 #contact h1 span { display: none; }
 #contact h1:before {
    font-family: 'FontAwesome';
-   content: "\f0e0";
 	padding-right: 10px;
 	font-size: 72px;
    line-height: 72px;
@@ -945,6 +953,9 @@ call-to-action .button {
 }
 #contact .header-col { padding-top: 6px; }
 
+#contact li {
+   font-size: 24px;
+}
 
 /* contact form */
 #contact form { margin-bottom: 30px; }
@@ -1043,7 +1054,7 @@ call-to-action .button {
 
 footer {
    padding-top: 24px;
-   margin-bottom: 10px;
+   margin-bottom: 50px;
    color: #303030;
    font-size: 14px;
    text-align: center;
