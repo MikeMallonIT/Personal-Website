@@ -12,6 +12,9 @@ export default class ContactUs extends Component {
             </div>
           </div>
           <div className="row">
+
+          <img src = "/images/replay.svg" alt="Contact us vector"/>
+
             <aside className="eigth columns footer-widgets">
               <div className="widget">
                 <h4>

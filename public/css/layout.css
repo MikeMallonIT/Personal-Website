@@ -920,6 +920,12 @@ call-to-action .button {
    color: #EBEEEE;
 }
 
+#contact img {
+   width: 500px;
+   height: auto;
+   float: right;
+   margin-right: 5%;
+}
 
 
 
