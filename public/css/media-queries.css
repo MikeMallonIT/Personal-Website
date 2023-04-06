@@ -301,6 +301,14 @@
    #contact .header-col h1:before { content: none;	}
    #contact .section-head p.lead { text-align: center;}
 
+   #contact img{
+      width: 250px;
+      height: auto;
+      float: none;
+      margin-right: 0;
+      margin-bottom: 8%;
+   }
+
    /* form */
    #contact label {
       float: none;
@@ -395,8 +403,8 @@
        /* Contact
    ------------------------------------------------------------------------ */
     #contact {
-      padding-top: 128px;
-      padding-bottom: 128px;
+      padding-top: 135px;
+      padding-bottom: 135px;
       text-align: center;
    } 
    #contact h1{

@@ -6,7 +6,8 @@
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-scripts": "2.1.1",
-    "react-visibility-detector": "^1.1.1"
+    "react-visibility-detector": "^1.1.1",
+    "vivus": "^0.4.6"
   },
   "scripts": {
     "start": "react-scripts start",
