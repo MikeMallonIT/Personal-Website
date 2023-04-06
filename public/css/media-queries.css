@@ -286,6 +286,9 @@
 
    /* contact Section
    ----------------------------------------------------------------------- */
+
+
+   
    #contact .section-head { margin-bottom: 12px; }
    #contact .section-head h1 {
       font: 16px/24px 'opensans-bold', sans-serif;            
@@ -388,6 +391,17 @@
       font: 12px 'opensans-bold', sans-serif;
       text-decoration: none;
     }
+
+       /* Contact
+   ------------------------------------------------------------------------ */
+    #contact {
+      padding-top: 128px;
+      padding-bottom: 128px;
+      text-align: center;
+   } 
+   #contact h1{
+      margin-left: 2px;
+   }
 
    /* footer
    ------------------------------------------------------------------------ */
