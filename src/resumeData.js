@@ -49,6 +49,12 @@ let resumeData = {
     "work":[
       {
         "CompanyName":"State Farm",
+
+        "newSpecialization":"Product Owner",
+        "newMonthOfLeaving":"June",
+        "newYearOfLeaving":"2023",
+        "newAchievements":"ServiceNow | Platform Administration | Entra | Intune | RBAC",
+
         "specialization":"Product Owner",
         "MonthOfLeaving":"April",
         "YearOfLeaving":"2019",
@@ -71,6 +77,12 @@ let resumeData = {
 
     "certs":[
       {
+        "CompanyName":"ServiceNow",
+        "specialization":"Certified Systems Administrator (CSA)",
+        "MonthOfLeaving":"June",
+        "YearOfLeaving":"2023",
+      },
+      {
         "CompanyName":"Amazon Web Services",
         "specialization":"Certified Cloud Practitioner",
         "MonthOfLeaving":"February",
@@ -89,7 +101,7 @@ let resumeData = {
         "skillname":"Agile Product Management"
       },
       {
-        "skillname":"Cisco UC"
+        "skillname":"ServiceNow"
       },
       {
         "skillname":"Full Stack Web Development"
