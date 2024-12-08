@@ -49,16 +49,21 @@ export default  class Resume extends Component {
                        <div className="twelve columns">
                           <h3>{item.CompanyName}</h3>
                           <p className="info">
+                          {item.newSpecialization}
+                          <span>&bull;</span> <em className="date">{item.newMonthOfLeaving} {item.newYearOfLeaving}</em></p>
+                                                    <p>
+                          {item.newAchievements}
+                          </p>
+
+                          <p className="info">
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                          
                           <p className="firstAchievements">
                             {item.Role1}{item.Achievements}
                           </p>
                           <p className="firstAchievementsPO">
                             {item.Role2}{item.Achievements1}
                           </p>
-
 
                           <p className="info">
                           {item.otherSpecialization}

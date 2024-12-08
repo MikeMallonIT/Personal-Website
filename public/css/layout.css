@@ -407,7 +407,7 @@ ul#nav li.current a { color: #C0A33C; }
    -webkit-animation: agile 2s ease;
 }
 
-.ciscouc {
+.serviceNow {
    width: 65%;
    -webkit-animation: uc 2s ease;
 }
@@ -874,7 +874,8 @@ call-to-action .button {
     margin: 0 6px;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
+    /*Comment out display? */
 }
 .flex-control-paging li a {
     width: 12px;
