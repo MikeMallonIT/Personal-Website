@@ -25,7 +25,7 @@ let resumeData = {
   "aboutMe":"I am a Chicagoland native that relocated to DFW in 2019. While studying IT infrastructure concepts in college, I built upon them on the job site. Telephony became my area of expertise post-graduation while administering one of the largest Cisco UC PBX environments in the country. My leadership skills were fine-tuned and remain proficient, having been appointed to be the team's product owner.",
   "aboutMeLineTwo":"As demand for infrastructure automation increased, so did my desire to code. I completed the SMU Full Stack Boot Camp in 2022 and leverage the knowledge I gained while driving automation at work and when building websites like this one. As a product owner, I help guide my agile team, but I believe a strong leader should focus on empowering their teams and get their hands dirty whenever possible.",
   "aboutMeLineThree":"I truly appreciate you stopping by and look forward to connecting!",
-    "website":"hello@mikemallon.com",
+    //"website":"hello@mikemallon.com",
     "resume":"https://mikemallonpublic.s3.us-east-1.amazonaws.com/MallonResume.pdf",
     "address":"",
     
