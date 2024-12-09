@@ -72,6 +72,13 @@ let resumeData = {
         "otherMonthOfLeaving1":"January",
         "otherYearOfLeaving1":"2016",
         "otherAchievements1":"IBM Tape Storage Management | Data Center Hands-on | Intern Speech Champion"
+      },
+      {
+        "CompanyName":"Best Buy",
+        "bbSpecialization":"Sales Associate",
+        "bbMonthOfLeaving":"June",
+        "bbYearOfLeaving":"2012",
+        "bbAchievements":"Computer Sales | Customer Relations | CompTIA A+",
       }
     ],
 
@@ -83,17 +90,18 @@ let resumeData = {
         "YearOfLeaving":"2023",
       },
       {
-        "CompanyName":"Amazon Web Services",
-        "specialization":"Certified Cloud Practitioner",
-        "MonthOfLeaving":"February",
-        "YearOfLeaving":"2021",
-      },
-      {
         "CompanyName":"Automotive Service Excellence",
         "specialization":"Auto Maintenance and Light Repair G1",
         "MonthOfLeaving":"February",
         "YearOfLeaving":"2022",
+      },
+      {
+        "CompanyName":"Amazon Web Services",
+        "specialization":"Certified Cloud Practitioner",
+        "MonthOfLeaving":"February",
+        "YearOfLeaving":"2021",
       }
+
     ],
     "skillsDescription":"Web Development",
     "skills":[

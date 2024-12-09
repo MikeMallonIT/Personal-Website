@@ -22,9 +22,9 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
-@import url("https://fonts.googleapis.com/css?family=Roboto Condensed");
 
+@import url("https://fonts.googleapis.com/css?family=Roboto Condensed");
+body { background: #0f0f0f; }
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
