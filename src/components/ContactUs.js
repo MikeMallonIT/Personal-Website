@@ -21,7 +21,8 @@ export default class ContactUs extends Component {
                 <p className="address">
                   <span className="contactName">{resumeData.name}</span>
                   <br></br>
-                  <span><a href = {`mailto: ${resumeData.website}`}>{resumeData.website}</a></span> 
+
+
                 </p>
                 <ul className="social-links">
             {
@@ -47,3 +48,5 @@ export default class ContactUs extends Component {
         );
   }
 }
+
+//                  <span><a href = {`mailto: ${resumeData.website}`}>{resumeData.website}</a></span> 

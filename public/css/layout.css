@@ -22,9 +22,9 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
-@import url("https://fonts.googleapis.com/css?family=Roboto Condensed");
 
+@import url("https://fonts.googleapis.com/css?family=Roboto Condensed");
+body { background: #0f0f0f; }
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -407,9 +407,9 @@ ul#nav li.current a { color: #C0A33C; }
    -webkit-animation: agile 2s ease;
 }
 
-.ciscouc {
-   width: 65%;
-   -webkit-animation: uc 2s ease;
+.servicenow {
+   width: 80%;
+   -webkit-animation: sn 2s ease;
 }
 
 .fullstackwebdevelopment {
@@ -436,7 +436,7 @@ ul#nav li.current a { color: #C0A33C; }
   0%   { width: 0px;  }
 100% { width: 75%;  }
 }
-@-webkit-keyframes uc {
+@-webkit-keyframes sn {
   0%   { width: 0px;  }
   100% { width: 65%;  }
 }
@@ -874,7 +874,8 @@ call-to-action .button {
     margin: 0 6px;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
+    /*Comment out display? */
 }
 .flex-control-paging li a {
     width: 12px;
