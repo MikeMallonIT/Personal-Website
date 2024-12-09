@@ -409,7 +409,7 @@ ul#nav li.current a { color: #C0A33C; }
 
 .serviceNow {
    width: 65%;
-   -webkit-animation: uc 2s ease;
+   -webkit-animation: sn 2s ease;
 }
 
 .fullstackwebdevelopment {
@@ -436,7 +436,7 @@ ul#nav li.current a { color: #C0A33C; }
   0%   { width: 0px;  }
 100% { width: 75%;  }
 }
-@-webkit-keyframes uc {
+@-webkit-keyframes sn {
   0%   { width: 0px;  }
   100% { width: 65%;  }
 }
