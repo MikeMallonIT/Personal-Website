@@ -4,11 +4,11 @@ let resumeData = {
     "name": "Mike Mallon",
     "role": "I am an Agile Product Owner, Full Stack Web Developer, and seasoned Technologist with a passion for servant leadership, fast cars, and golf.",
     "roleDescription":"",
-    "linkedinId":" michael-mallon-it-guy",
+    "linkedinId":" themikemallon",
     "socialLinks":[
         {
           "name":"Linkedin",
-          "url":"https://www.linkedin.com/in/michael-mallon-it-guy/",
+          "url":"https://www.linkedin.com/in/themikemallon/",
           "className":"fa fa-linkedin"
         },
         {
