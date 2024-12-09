@@ -72,13 +72,6 @@ let resumeData = {
         "otherMonthOfLeaving1":"January",
         "otherYearOfLeaving1":"2016",
         "otherAchievements1":"IBM Tape Storage Management | Data Center Hands-on | Intern Speech Champion"
-      },
-      {
-        "CompanyName":"Best Buy",
-        "bbSpecialization":"Sales Associate",
-        "bbMonthOfLeaving":"June",
-        "bbYearOfLeaving":"2012",
-        "bbAchievements":"Computer Sales | Customer Relations | CompTIA A+",
       }
     ],
 
