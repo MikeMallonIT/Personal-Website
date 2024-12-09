@@ -26,7 +26,7 @@ let resumeData = {
   "aboutMeLineTwo":"As demand for infrastructure automation increased, so did my desire to code. I completed the SMU Full Stack Boot Camp in 2022 and leverage the knowledge I gained while driving automation at work and when building websites like this one. As a product owner, I help guide my agile team, but I believe a strong leader should focus on empowering their teams and get their hands dirty whenever possible.",
   "aboutMeLineThree":"I truly appreciate you stopping by and look forward to connecting!",
     "website":"hello@mikemallon.com",
-    "resume":"https://drive.google.com/file/d/16_mizttCwBflxgi-pBw2C1yG9nkI3S92/view?usp=sharing",
+    "resume":"https://drive.google.com/file/d/1OxIEzCu1M8qSLhbgtw1GP1SnwuCWP45f/view?usp=sharing",
     "address":"",
     
     "education":[
